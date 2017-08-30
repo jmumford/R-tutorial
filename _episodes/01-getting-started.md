@@ -15,8 +15,8 @@ keypoints:
 
 ---
 
-# 01-Installing R and getting started
-Jeanette Mumford  
+# Installing R and getting started
+
 
 [R](https://www.r-project.org/) is free and I highly recommend using R through the IDE, [RStudio](https://www.rstudio.com/), which offers a lot of helpful functionality like generating R markdown files easily and integrating with github.  A common confusion is that updating RStudio is also updating R, but this is not the case.  RStudio uses R, but they are updated and installed independently.
 
@@ -50,13 +50,6 @@ install.packages("ggplot2")
 # Run once per session if you'd like to use it
 library("ggplot2")
 ```
-
-```
-## Warning: package 'ggplot2' was built under R version 3.3.2
-```
-
-For the above you will likely get more output than I did when you run install.packages, as I already had it installed.
-
 Now open a new editor (in RStudio click the white page icon in the upper left and select, "R Script", and we'll write a quick "hello world".  Enter the following in the file and save it in a file called "first_script.R".
 
 ```r
