@@ -15,7 +15,7 @@ keypoints:
 
 ---
 
-# Installing R and getting started
+# Installing R and R libraries
 
 
 [R](https://www.r-project.org/) is free and I highly recommend using R through the IDE, [RStudio](https://www.rstudio.com/), which offers a lot of helpful functionality like generating R markdown files easily and integrating with github.  A common confusion is that updating RStudio is also updating R, but this is not the case.  RStudio uses R, but they are updated and installed independently.
@@ -66,6 +66,7 @@ If you want to run the script from the LINUX prompt you would use "Rscript first
 
 In RStudio, you can simply hit cmd+return (on a Mac) to run the current line that the cursor is on, or you can copy and paste into the R terminal window.  Give that a shot with your single line in first_script.R and add these following simple commands and run them.
 
+# Assigning data to a variable
 
 ```r
 a <- 4
@@ -98,7 +99,7 @@ sprintf("variable%s", x)
 # the %s acts as a fill in the blank for strings.  You'd need to change this for number input
 ```
 
-### On your own
+# On your own
 Play around with the paste or sprintf commands.  Try to create a variable called "variable10" that has a value of 4 using the following:
 
 ```r
@@ -107,7 +108,7 @@ b = 10
 c = 4
 ```
 
-### Summary of functions from Section 1
+# Summary of functions from Section 1
 For more information about any of these functions, simply type ?function.name at the R prompt to open the help.  Eg, ?options will tell you more about options().
 
 Function Name | What it does

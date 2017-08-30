@@ -141,7 +141,7 @@ diag(a) = 1
 a
 ```
 
-### On your own
+# On your own
 Relevel only allows you to change the baseline level of a factor, but for plotting in ggplot you'll often want to change the overall order of the levels of a factor.  For the following, use the factor function and the "levels" option within it (look at the help for more details) to change the following factor so the levels are in the order: ctrl, bipolar, adhd.
 
 ```r
@@ -150,7 +150,7 @@ group = factor(c("adhd", "bipolar", "ctrl"))
 
 Secondly, with the rep command I used above, make sure you understand what it is doing differently when I add the "each" option.
 
-### Summary of functions from Section 2
+# Summary of functions from Section 2
 
 Function Name | What it does
 ------------------------- | -------------------------
