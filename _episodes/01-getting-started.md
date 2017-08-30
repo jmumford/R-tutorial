@@ -108,7 +108,7 @@ b = 10
 c = 4
 ```
 
-# Summary of functions from Section 1
+# Summary of functions
 For more information about any of these functions, simply type ?function.name at the R prompt to open the help.  Eg, ?options will tell you more about options().
 
 Function Name | What it does

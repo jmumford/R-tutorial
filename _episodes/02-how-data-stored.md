@@ -150,7 +150,7 @@ group = factor(c("adhd", "bipolar", "ctrl"))
 
 Secondly, with the rep command I used above, make sure you understand what it is doing differently when I add the "each" option.
 
-# Summary of functions from Section 2
+# Summary of functions 
 
 Function Name | What it does
 ------------------------- | -------------------------
